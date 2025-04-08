@@ -17,9 +17,9 @@ const NavBar = () => {
       </div>
     </div>
     <div className='w-full h-[4%] flex item-center gap-2'>
-          <p className='px-4 py-1 bg-white  rounded-full text-black  cursor-pointer items-start' >All</p>
-          <p className='px-4 py-1 bg-black rounded-full text-white  cursor-pointer items-start' >Music</p>
-          <p className='px-4 py-1 bg-black  rounded-full text-white  cursor-pointer items-start' >Podcasts</p>
+          <p className='px-4  bg-white  rounded-full text-black  cursor-pointer items-start' >All</p>
+          <p className='px-4  bg-black rounded-full text-white  cursor-pointer items-start' >Music</p>
+          <p className='px-4  bg-black  rounded-full text-white  cursor-pointer items-start' >Podcasts</p>
       </div>
     </>
   )
