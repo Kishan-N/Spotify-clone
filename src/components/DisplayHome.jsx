@@ -8,7 +8,7 @@ const DisplayHome = () => {
     
   return (
     <>
-    <NavBar/>
+    
     <div>
         <h1 className='my-3 text-bold text-2xl'>Featured Charts</h1>
         <div className='flex  overflow-auto gap-4'>{albumsData.map((item,id) =><Albums key={id}  name={item.name} desc={item.desc} image={item.image} id={item.id}/>)}</div>
